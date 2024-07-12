@@ -284,10 +284,12 @@ header nav a{
 }
 .coupon-section input{
     width: 80%;
+    padding: 10px;
 }
 .coupon-btn{
     width: 20%;
     padding: 5px 10px;
+    border-radius: 0 10px 10px 0;
     border: none;
     outline: none;   
     color: white;
@@ -345,6 +347,18 @@ header nav a{
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+.contact-left button{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    margin-top: 20px;
+    color: white;
+    background-color: var(--primary-color);
+
+}
 .contact-left h1{
     margin-bottom: 20px;
 }
@@ -358,8 +372,9 @@ header nav a{
     flex-direction: column;
     padding: 10px 0;
 }
+
  .label-block:nth-child(1){
-    width: 50%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
